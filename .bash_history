@@ -34,7 +34,7 @@ pwd
 df -h
 exit
 clear
-sshpass -p 'ssh@222'  root@192.168.55.202
+sshpass -p 'ssh@222'  root@36.7.109.47:8022
 df -h
 cd /DIDMS2
 ls
