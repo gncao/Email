@@ -13,7 +13,7 @@ msg["Subject"] = "test"
 msg["From"] = username
 msg["To"] = _to
 
-s = smtplib.SMTP("smtp.iflytek.com", timeout=30)  # 连接smtp邮件服务器,端口默认是25
+s = smtplib.SMTP("xfmail.iflytek.com", timeout=30)  # 连接smtp邮件服务器,端口默认是25
 s.login(username, password)  # 登陆服务器
 s.sendmail(username, _to, msg.as_string())  # 发送邮件
 s.close()
